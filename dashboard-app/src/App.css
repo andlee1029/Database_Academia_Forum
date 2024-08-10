@@ -1,0 +1,12 @@
+.app {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 20px;
+    background-color: #a3b18a;
+}
+

@@ -1,0 +1,58 @@
+.publicationWidget {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #dad7cd;
+    width: 25%;
+    min-width: 400px;
+    height: 630px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    border-color: black;
+    border-style: solid;
+    border-width: 0 0 2px;
+}
+
+.myPublications {
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.publication {
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-style: dashed;
+    border-width: 0 0 2px;
+}
+
+.pubField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fieldName {
+    margin-right: 5px;
+}
+
+.addButton {
+    margin-top: auto;
+}
+
+.addForm {
+    border-color: black;
+    border-width: 2px 0 0;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.add {
+    margin-right: 2px;
+}

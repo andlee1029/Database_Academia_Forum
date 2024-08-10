@@ -1,0 +1,27 @@
+.NumPublicationsWidget {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #dad7cd;
+    width: 37%;
+    min-width: 600px;
+    height: 630px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    border-color: black;
+    border-style: solid;
+    border-width: 0 0 2px;
+}
+
+.entry {
+    margin-top: auto;
+    align-self: center;
+}
+
+.input {
+    margin-right: 10px;
+}
